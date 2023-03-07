@@ -2,6 +2,12 @@
   z-index: 2;
 }
 
+body {
+  background-color: blanchedalmond;
+}
+
+/*Navbar*/
+
 .navbar {
   z-index: 3;
 }
@@ -11,7 +17,7 @@
 }
 
 .nav-color {
-  background-color: black;
+  background-color: white;
   transition: all ease-in-out 0.3s;
 }
 
@@ -23,15 +29,15 @@
   font-weight: 700;
 }
 
-body {
-  background-color: blanchedalmond;
-}
+/*Hero Section*/
 
 #hero {
   background: linear-gradient(160deg, blanchedalmond, white);
   height: 100vh;
   width: 100%;
 }
+
+/*Layanan Section*/
 
 #layanan {
   padding: 50px 0;
@@ -40,23 +46,7 @@ body {
 }
 
 .card-layanan {
-  width: 100%;
-  height: 313px;
-  border-radius: 5px;
-  background-color: white;
-  padding: 40px;
-  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
-
-  transition: all 0.5s ease-in;
-}
-
-.icon-layanan {
-  width: 70px;
-  height: 70px;
-  background-color: blanchedalmond;
-  border-radius: 50%;
-
-  transition: all 0.5s ease-in;
+  overflow: auto;
 }
 
 /* Saat Hover */
@@ -80,20 +70,36 @@ body {
   transition: all 0.5s ease-in;
 }
 
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+
+  transition: all 0.5s ease-in;
+}
+
+.icon-layanan {
+  width: 70px;
+  height: 70px;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+
+  transition: all 0.5s ease-in;
+}
+
 /*Profile Section*/
 #header {
   background-color: rgba(242, 180, 180, 0.8);
-  /* background: linear-gradient(160deg, blanchedalmond, white); */
   border-radius: 10px;
-  position: relative;
+  /* display: flex;
+  position: relative; */
 }
 
 #profil {
-  /* background-image: url(../img/2021-05-01.png); */
   background: linear-gradient(160deg, blanchedalmond, white);
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-color: aliceblue; */
   height: 100vh;
   width: 100%;
 }
@@ -144,8 +150,9 @@ body {
   margin-left: 40px;
 }
 
+/*Team Section*/
+
 #team {
-  /* background: linear-gradient(160deg, blanchedalmond, white); */
   background-color: aliceblue;
   height: 100vh;
   width: 100%;

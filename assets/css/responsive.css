@@ -1,6 +1,95 @@
 @media screen and (max-width: 854px) {
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
+  lottie-player {
+    width: 50% !important;
+  }
+
+  .navbar-brand img {
+    width: 90%;
+  }
+
+  .card-layanan {
+    width: 100% !important;
+    overflow: scroll;
+  }
+
+  .card-layanan h3 {
+    font-size: 12px;
+  }
+
+  .card-layanan p {
+    font-size: 11px;
+  }
+
+  #header {
+    margin-top: 50px;
+    padding: 10px !important;
+  }
+
+  #header h2 {
+    font-size: 12px;
+  }
+
+  #header span {
+    font-size: 11px;
+  }
+
+  .tab-pane {
+    font-size: 11px;
+  }
+
+  #team .col-6 {
+    margin-bottom: 10px;
+  }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 578px) {
+  lottie-player {
+    width: 50% !important;
+  }
+
+  .navbar-brand img {
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar .container {
+    display: inline;
+  }
+
+  .card-layanan {
+    width: 100% !important;
+    overflow: scroll;
+  }
+
+  .card-layanan h3 {
+    font-size: 12px;
+  }
+
+  .card-layanan p {
+    font-size: 11px;
+  }
+
+  #header {
+    margin-top: 50px;
+    padding: 10px !important;
+  }
+
+  #header h2 {
+    font-size: 12px;
+  }
+
+  #header span {
+    font-size: 11px;
+  }
+
+  .tab-pane {
+    font-size: 11px;
+  }
+
+  #team .col-6 {
+    margin-bottom: 10px;
+  }
 }
