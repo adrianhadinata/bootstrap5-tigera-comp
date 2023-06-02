@@ -6,6 +6,59 @@ body {
   background-color: blanchedalmond;
 }
 
+/* Scroll bar setting */
+
+/* width */
+.sidebar-wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.sidebar-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.sidebar-wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* End of Scroll bar setting */
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #55;
+} */
+
 /*Navbar*/
 
 .navbar {
@@ -92,7 +145,7 @@ body {
 
 /*Profile Section*/
 #header {
-  background-color: rgba(242, 180, 180, 0.8);
+  /* background-color: rgba(242, 180, 180, 0.8); */
   border-radius: 10px;
   /* display: flex;
   position: relative; */
